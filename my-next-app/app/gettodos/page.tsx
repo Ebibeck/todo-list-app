@@ -1,7 +1,7 @@
 "use client";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { use } from "react";
-import { completedTodos, deleteTodos, getTodos } from "../pocketbase";
+import { completedTodos, deleteTodos, getTodos } from "../api/pocketbase";
 import { useRouter } from "next/navigation";
 
 export default function GetTodos() {

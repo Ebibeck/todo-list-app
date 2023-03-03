@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { createTodo } from "../pocketbase";
+import { createTodo } from "../api/pocketbase";
 import { useRouter } from "next/navigation";
 
 export default function CreateTodos() {
